@@ -1,5 +1,5 @@
 # pydocx
-docx parser in python
+docx parser in python , a midyfied version from <a href="[http://example.com/](https://github.com/CenterForOpenScience/pydocx)">_[pydocx]_</a>
 
 # install
 python setup install
@@ -12,9 +12,10 @@ python setup install
   pydocx --markdown file1.docx file2.md
 
 **call in python**
-  
+
   <pre><code>
   import pydocx
+  
   def docx2txt(arg):
     fsrc, fdest = arg
     try:
