@@ -1,5 +1,5 @@
 # pydocx
-docx parser in python , a midified version from <a href="https://github.com/CenterForOpenScience/pydocx">[pydocx]</a> 
+A docx parser in python , a midified version from <a href="https://github.com/CenterForOpenScience/pydocx">[pydocx]</a> 
 
 New Added: Tibetan traditional codes preprocess
 
