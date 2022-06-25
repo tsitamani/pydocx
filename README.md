@@ -1,5 +1,6 @@
 # pydocx
 docx parser in python , a midified version from <a href="https://github.com/CenterForOpenScience/pydocx">[pydocx]</a>
+New Added: Tibetan traditional codes preprocess
 
 # install
 python setup install
@@ -7,11 +8,11 @@ python setup install
 # usage
 **command line Usage**: pydocx --html|--markdown|--text input.docx output
 
-  pydocx --text file1.docx file2.txt
+  pydocx --text input.docx output.txt
   
-  pydocx --html file1.docx file2.html
+  pydocx --html input.docx output.html
   
-  pydocx --markdown file1.docx file2.md
+  pydocx --markdown input.docx output.md
 
 **call in python**
 
