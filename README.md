@@ -8,7 +8,9 @@ python setup install
 **command line Usage**: pydocx --html|--markdown|--text input.docx output
 
   pydocx --text file1.docx file2.txt
+  
   pydocx --html file1.docx file2.html
+  
   pydocx --markdown file1.docx file2.md
 
 **call in python**
