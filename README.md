@@ -14,24 +14,6 @@ python setup install
 **call in python**
 
   <pre><code>
-  import pydocx
-  
-  def docx2txt(fsrc, fdest):
-    try:
-      print(fsrc) 
-      data = pydocx.PyDocX.to_text(fsrc)
-      f = open(fdest, 'w')
-      f.write(data)
-      f.close()
-      return (0, fdest)
-    except:
-      print('fail %s' % fsrc)
-      return (1, fsrc)
-  </code></pre>
-
-  or
-
-  <pre><code>
   
   from bs4 import BeautifulSoup
   
