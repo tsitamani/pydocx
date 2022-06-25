@@ -1,12 +1,31 @@
 # pydocx
-docx parser
+docx parser in python
 
 # install
 python setup install
 
 # usage
-Usage: pydocx --html|--markdown|--text input.docx output
+**command line Usage**: pydocx --html|--markdown|--text input.docx output
 
-1. pydocx --text file1.docx file2.txt
-2. pydocx --html file1.docx file2.html
-3. pydocx --markdown file1.docx file2.md
+  pydocx --text file1.docx file2.txt
+  pydocx --html file1.docx file2.html
+  pydocx --markdown file1.docx file2.md
+
+**call in python**
+  
+  <pre><code>
+  import pydocx
+  def docx2txt(arg):
+    fsrc, fdest = arg
+    try:
+      print(fsrc) 
+      html = pydocx.PyDocX.to_html(fsrc)
+      data = get_html_file_content(html)
+      f = open(fdest, 'w')
+      f.write(data)
+      f.close()
+      return (0, fdest)
+    except:
+      print('fail %s' % fsrc)
+      return (1, fsrc)
+</code></pre>
