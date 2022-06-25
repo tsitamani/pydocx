@@ -1,5 +1,5 @@
 # pydocx
-docx parser in python , a midyfied version from <a href="[http://example.com/](https://github.com/CenterForOpenScience/pydocx)">_[pydocx]_</a>
+docx parser in python , a midified version from <a href="https://github.com/CenterForOpenScience/pydocx">[pydocx]</a>
 
 # install
 python setup install
