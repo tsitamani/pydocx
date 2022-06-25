@@ -8,9 +8,6 @@ from pydocx.export import PyDocXHTMLExporter, PyDocXMarkdownExporter, PyDocXExpo
 
 
 class PyDocX(object):
-    @staticmethod
-    def to_base(path_or_stream):
-        return PyDocXExporter(path_or_stream)#.export()
 
     @staticmethod
     def to_html(path_or_stream):
@@ -20,6 +17,3 @@ class PyDocX(object):
     def to_markdown(path_or_stream):
         return PyDocXMarkdownExporter(path_or_stream).export()
 
-    @staticmethod
-    def to_text(path_or_stream):
-        return MyPyDocXExporter(path_or_stream).export()
