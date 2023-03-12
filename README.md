@@ -4,17 +4,18 @@ A docx parser in python , a midified version from <a href="https://github.com/Ce
 New Added: Tibetan traditional codes preprocess
 
 # install
+``` bash
 python setup install
+``` 
 
 # usage
-**command line Usage**: pydocx --html|--markdown|--text input.docx output
-
+**command line Usage**: 
+``` bash 
+  pydocx --html|--markdown|--text input.docx output
   pydocx --text input.docx output.txt
-  
   pydocx --html input.docx output.html
-  
   pydocx --markdown input.docx output.md
-
+``` 
 **call in python**
 
   <pre><code>
