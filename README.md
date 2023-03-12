@@ -11,7 +11,6 @@ python setup install
 # usage
 **command line Usage**: 
 ``` bash 
-  pydocx --html|--markdown|--text input.docx output
   pydocx --text input.docx output.txt
   pydocx --html input.docx output.html
   pydocx --markdown input.docx output.md
